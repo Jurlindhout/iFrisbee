@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1611C9C1907B3F70094B5CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611C9B1907B3F70094B5CD /* Foundation.framework */; };
+		E1611C9E1907B3F70094B5CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611C9D1907B3F70094B5CD /* CoreGraphics.framework */; };
+		E1611CA01907B3F70094B5CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611C9F1907B3F70094B5CD /* UIKit.framework */; };
+		E1611CA21907B3F70094B5CD /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611CA11907B3F70094B5CD /* GLKit.framework */; };
+		E1611CA41907B3F70094B5CD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611CA31907B3F70094B5CD /* OpenGLES.framework */; };
+		E1611CAA1907B3F70094B5CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1611CA81907B3F70094B5CD /* InfoPlist.strings */; };
+		E1611CAC1907B3F70094B5CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1611CAB1907B3F70094B5CD /* main.m */; };
+		E1611CB01907B3F70094B5CD /* JRLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1611CAF1907B3F70094B5CD /* JRLAppDelegate.m */; };
+		E1611CB31907B3F70094B5CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1611CB11907B3F70094B5CD /* Main.storyboard */; };
+		E1611CBC1907B3F70094B5CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1611CBB1907B3F70094B5CD /* Images.xcassets */; };
+		E1611CC31907B3F70094B5CD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611CC21907B3F70094B5CD /* XCTest.framework */; };
+		E1611CC41907B3F70094B5CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611C9B1907B3F70094B5CD /* Foundation.framework */; };
+		E1611CC51907B3F70094B5CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611C9F1907B3F70094B5CD /* UIKit.framework */; };
+		E1611CCD1907B3F70094B5CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1611CCB1907B3F70094B5CD /* InfoPlist.strings */; };
+		E1611CCF1907B3F70094B5CD /* iFrisbeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1611CCE1907B3F70094B5CD /* iFrisbeeTests.m */; };
+		E1611CDA1907B4350094B5CD /* JRLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1611CD91907B4350094B5CD /* JRLViewController.m */; };
+		E1611CDF1907D7AA0094B5CD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611CDE1907D7AA0094B5CD /* AVFoundation.framework */; };
+		E1611CE11907D7BD0094B5CD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611CE01907D7BD0094B5CD /* CoreData.framework */; };
+		E1611CE31907D7C40094B5CD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611CE21907D7C40094B5CD /* CoreLocation.framework */; };
+		E1611CE51907D7D00094B5CD /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611CE41907D7D00094B5CD /* CoreText.framework */; };
+		E1611CE71907D7E00094B5CD /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611CE61907D7E00094B5CD /* ImageIO.framework */; };
+		E1611CE91907D7E70094B5CD /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611CE81907D7E70094B5CD /* libc++.dylib */; };
+		E1611CEB1907D7EE0094B5CD /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611CEA1907D7EE0094B5CD /* libicucore.dylib */; };
+		E1611CED1907D7F60094B5CD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611CEC1907D7F60094B5CD /* libz.dylib */; };
+		E1611CEF1907D8050094B5CD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611CEE1907D8050094B5CD /* QuartzCore.framework */; };
+		E1611CF11907D80D0094B5CD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611CF01907D80D0094B5CD /* SystemConfiguration.framework */; };
+		E1611CF31907D8380094B5CD /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611CF21907D8380094B5CD /* GoogleMaps.framework */; };
+		E1611CF51907D84C0094B5CD /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1611CF41907D84C0094B5CD /* GoogleMaps.bundle */; };
+		E1611CFB19083F4E0094B5CD /* JRLView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1611CFA19083F4E0094B5CD /* JRLView.m */; };
+		E1611D071909070C0094B5CD /* JRLCLLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1611D061909070C0094B5CD /* JRLCLLocationController.m */; };
+		E1611D0A190912220094B5CD /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = E1611D09190912220094B5CD /* start.png */; };
+		E1611D0C1909147E0094B5CD /* goal.png in Resources */ = {isa = PBXBuildFile; fileRef = E1611D0B1909147E0094B5CD /* goal.png */; };
+		E1611D1019098AAC0094B5CD /* frisbee_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E1611D0F19098AAC0094B5CD /* frisbee_arrow.png */; };
+		E1611D1219098F130094B5CD /* frisbee_big.png in Resources */ = {isa = PBXBuildFile; fileRef = E1611D1119098F130094B5CD /* frisbee_big.png */; };
+		E1611D141909BF7D0094B5CD /* frisbee.png in Resources */ = {isa = PBXBuildFile; fileRef = E1611D131909BF7D0094B5CD /* frisbee.png */; };
+		E1611D181909C49E0094B5CD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E1611D171909C49E0094B5CD /* icon.png */; };
+		E1611D1A1909C5690094B5CD /* launch_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E1611D191909C5690094B5CD /* launch_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1611CC61907B3F70094B5CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1611C901907B3F70094B5CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1611C971907B3F70094B5CD;
+			remoteInfo = iFrisbee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1611C981907B3F70094B5CD /* iFrisbee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFrisbee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1611C9B1907B3F70094B5CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1611C9D1907B3F70094B5CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1611C9F1907B3F70094B5CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1611CA11907B3F70094B5CD /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		E1611CA31907B3F70094B5CD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E1611CA71907B3F70094B5CD /* iFrisbee-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iFrisbee-Info.plist"; sourceTree = "<group>"; };
+		E1611CA91907B3F70094B5CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1611CAB1907B3F70094B5CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1611CAD1907B3F70094B5CD /* iFrisbee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iFrisbee-Prefix.pch"; sourceTree = "<group>"; };
+		E1611CAE1907B3F70094B5CD /* JRLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRLAppDelegate.h; sourceTree = "<group>"; };
+		E1611CAF1907B3F70094B5CD /* JRLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRLAppDelegate.m; sourceTree = "<group>"; };
+		E1611CB21907B3F70094B5CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1611CBB1907B3F70094B5CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E1611CC11907B3F70094B5CD /* iFrisbeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFrisbeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1611CC21907B3F70094B5CD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E1611CCA1907B3F70094B5CD /* iFrisbeeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iFrisbeeTests-Info.plist"; sourceTree = "<group>"; };
+		E1611CCC1907B3F70094B5CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1611CCE1907B3F70094B5CD /* iFrisbeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFrisbeeTests.m; sourceTree = "<group>"; };
+		E1611CD81907B4350094B5CD /* JRLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRLViewController.h; sourceTree = "<group>"; };
+		E1611CD91907B4350094B5CD /* JRLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRLViewController.m; sourceTree = "<group>"; };
+		E1611CDE1907D7AA0094B5CD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E1611CE01907D7BD0094B5CD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E1611CE21907D7C40094B5CD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E1611CE41907D7D00094B5CD /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		E1611CE61907D7E00094B5CD /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		E1611CE81907D7E70094B5CD /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		E1611CEA1907D7EE0094B5CD /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		E1611CEC1907D7F60094B5CD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E1611CEE1907D8050094B5CD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E1611CF01907D80D0094B5CD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E1611CF21907D8380094B5CD /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		E1611CF41907D84C0094B5CD /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		E1611CF919083F4E0094B5CD /* JRLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRLView.h; sourceTree = "<group>"; };
+		E1611CFA19083F4E0094B5CD /* JRLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRLView.m; sourceTree = "<group>"; };
+		E1611D051909070C0094B5CD /* JRLCLLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRLCLLocationController.h; sourceTree = "<group>"; };
+		E1611D061909070C0094B5CD /* JRLCLLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRLCLLocationController.m; sourceTree = "<group>"; };
+		E1611D09190912220094B5CD /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		E1611D0B1909147E0094B5CD /* goal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goal.png; sourceTree = "<group>"; };
+		E1611D0F19098AAC0094B5CD /* frisbee_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frisbee_arrow.png; sourceTree = "<group>"; };
+		E1611D1119098F130094B5CD /* frisbee_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frisbee_big.png; sourceTree = "<group>"; };
+		E1611D131909BF7D0094B5CD /* frisbee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frisbee.png; sourceTree = "<group>"; };
+		E1611D171909C49E0094B5CD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E1611D191909C5690094B5CD /* launch_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1611C951907B3F70094B5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1611CF11907D80D0094B5CD /* SystemConfiguration.framework in Frameworks */,
+				E1611CEF1907D8050094B5CD /* QuartzCore.framework in Frameworks */,
+				E1611CA41907B3F70094B5CD /* OpenGLES.framework in Frameworks */,
+				E1611CED1907D7F60094B5CD /* libz.dylib in Frameworks */,
+				E1611CEB1907D7EE0094B5CD /* libicucore.dylib in Frameworks */,
+				E1611CE91907D7E70094B5CD /* libc++.dylib in Frameworks */,
+				E1611CE71907D7E00094B5CD /* ImageIO.framework in Frameworks */,
+				E1611CA21907B3F70094B5CD /* GLKit.framework in Frameworks */,
+				E1611CE51907D7D00094B5CD /* CoreText.framework in Frameworks */,
+				E1611CE31907D7C40094B5CD /* CoreLocation.framework in Frameworks */,
+				E1611CE11907D7BD0094B5CD /* CoreData.framework in Frameworks */,
+				E1611CDF1907D7AA0094B5CD /* AVFoundation.framework in Frameworks */,
+				E1611C9E1907B3F70094B5CD /* CoreGraphics.framework in Frameworks */,
+				E1611CA01907B3F70094B5CD /* UIKit.framework in Frameworks */,
+				E1611CF31907D8380094B5CD /* GoogleMaps.framework in Frameworks */,
+				E1611C9C1907B3F70094B5CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1611CBE1907B3F70094B5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1611CC31907B3F70094B5CD /* XCTest.framework in Frameworks */,
+				E1611CC51907B3F70094B5CD /* UIKit.framework in Frameworks */,
+				E1611CC41907B3F70094B5CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1611C8F1907B3F70094B5CD = {
+			isa = PBXGroup;
+			children = (
+				E1611CA51907B3F70094B5CD /* iFrisbee */,
+				E1611CC81907B3F70094B5CD /* iFrisbeeTests */,
+				E1611C9A1907B3F70094B5CD /* Frameworks */,
+				E1611C991907B3F70094B5CD /* Products */,
+				E1611D08190912220094B5CD /* resources */,
+			);
+			sourceTree = "<group>";
+		};
+		E1611C991907B3F70094B5CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1611C981907B3F70094B5CD /* iFrisbee.app */,
+				E1611CC11907B3F70094B5CD /* iFrisbeeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1611C9A1907B3F70094B5CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1611CF41907D84C0094B5CD /* GoogleMaps.bundle */,
+				E1611CF21907D8380094B5CD /* GoogleMaps.framework */,
+				E1611CF01907D80D0094B5CD /* SystemConfiguration.framework */,
+				E1611CEE1907D8050094B5CD /* QuartzCore.framework */,
+				E1611CEC1907D7F60094B5CD /* libz.dylib */,
+				E1611CEA1907D7EE0094B5CD /* libicucore.dylib */,
+				E1611CE81907D7E70094B5CD /* libc++.dylib */,
+				E1611CE61907D7E00094B5CD /* ImageIO.framework */,
+				E1611CE41907D7D00094B5CD /* CoreText.framework */,
+				E1611CE21907D7C40094B5CD /* CoreLocation.framework */,
+				E1611CE01907D7BD0094B5CD /* CoreData.framework */,
+				E1611CDE1907D7AA0094B5CD /* AVFoundation.framework */,
+				E1611C9B1907B3F70094B5CD /* Foundation.framework */,
+				E1611C9D1907B3F70094B5CD /* CoreGraphics.framework */,
+				E1611C9F1907B3F70094B5CD /* UIKit.framework */,
+				E1611CA11907B3F70094B5CD /* GLKit.framework */,
+				E1611CA31907B3F70094B5CD /* OpenGLES.framework */,
+				E1611CC21907B3F70094B5CD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1611CA51907B3F70094B5CD /* iFrisbee */ = {
+			isa = PBXGroup;
+			children = (
+				E1611CB11907B3F70094B5CD /* Main.storyboard */,
+				E1611CAE1907B3F70094B5CD /* JRLAppDelegate.h */,
+				E1611CAF1907B3F70094B5CD /* JRLAppDelegate.m */,
+				E1611CD81907B4350094B5CD /* JRLViewController.h */,
+				E1611CD91907B4350094B5CD /* JRLViewController.m */,
+				E1611CBB1907B3F70094B5CD /* Images.xcassets */,
+				E1611CA61907B3F70094B5CD /* Supporting Files */,
+				E1611CF919083F4E0094B5CD /* JRLView.h */,
+				E1611CFA19083F4E0094B5CD /* JRLView.m */,
+				E1611D051909070C0094B5CD /* JRLCLLocationController.h */,
+				E1611D061909070C0094B5CD /* JRLCLLocationController.m */,
+			);
+			path = iFrisbee;
+			sourceTree = "<group>";
+		};
+		E1611CA61907B3F70094B5CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1611CA71907B3F70094B5CD /* iFrisbee-Info.plist */,
+				E1611CA81907B3F70094B5CD /* InfoPlist.strings */,
+				E1611CAB1907B3F70094B5CD /* main.m */,
+				E1611CAD1907B3F70094B5CD /* iFrisbee-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1611CC81907B3F70094B5CD /* iFrisbeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1611CCE1907B3F70094B5CD /* iFrisbeeTests.m */,
+				E1611CC91907B3F70094B5CD /* Supporting Files */,
+			);
+			path = iFrisbeeTests;
+			sourceTree = "<group>";
+		};
+		E1611CC91907B3F70094B5CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1611CCA1907B3F70094B5CD /* iFrisbeeTests-Info.plist */,
+				E1611CCB1907B3F70094B5CD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1611D08190912220094B5CD /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1611D191909C5690094B5CD /* launch_icon.png */,
+				E1611D171909C49E0094B5CD /* icon.png */,
+				E1611D1119098F130094B5CD /* frisbee_big.png */,
+				E1611D0F19098AAC0094B5CD /* frisbee_arrow.png */,
+				E1611D0B1909147E0094B5CD /* goal.png */,
+				E1611D09190912220094B5CD /* start.png */,
+				E1611D131909BF7D0094B5CD /* frisbee.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1611C971907B3F70094B5CD /* iFrisbee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1611CD21907B3F70094B5CD /* Build configuration list for PBXNativeTarget "iFrisbee" */;
+			buildPhases = (
+				E1611C941907B3F70094B5CD /* Sources */,
+				E1611C951907B3F70094B5CD /* Frameworks */,
+				E1611C961907B3F70094B5CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFrisbee;
+			productName = iFrisbee;
+			productReference = E1611C981907B3F70094B5CD /* iFrisbee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1611CC01907B3F70094B5CD /* iFrisbeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1611CD51907B3F70094B5CD /* Build configuration list for PBXNativeTarget "iFrisbeeTests" */;
+			buildPhases = (
+				E1611CBD1907B3F70094B5CD /* Sources */,
+				E1611CBE1907B3F70094B5CD /* Frameworks */,
+				E1611CBF1907B3F70094B5CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1611CC71907B3F70094B5CD /* PBXTargetDependency */,
+			);
+			name = iFrisbeeTests;
+			productName = iFrisbeeTests;
+			productReference = E1611CC11907B3F70094B5CD /* iFrisbeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1611C901907B3F70094B5CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JRL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jurriaan Lindhout";
+				TargetAttributes = {
+					E1611CC01907B3F70094B5CD = {
+						TestTargetID = E1611C971907B3F70094B5CD;
+					};
+				};
+			};
+			buildConfigurationList = E1611C931907B3F70094B5CD /* Build configuration list for PBXProject "iFrisbee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1611C8F1907B3F70094B5CD;
+			productRefGroup = E1611C991907B3F70094B5CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1611C971907B3F70094B5CD /* iFrisbee */,
+				E1611CC01907B3F70094B5CD /* iFrisbeeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1611C961907B3F70094B5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1611D141909BF7D0094B5CD /* frisbee.png in Resources */,
+				E1611D1219098F130094B5CD /* frisbee_big.png in Resources */,
+				E1611CBC1907B3F70094B5CD /* Images.xcassets in Resources */,
+				E1611CAA1907B3F70094B5CD /* InfoPlist.strings in Resources */,
+				E1611D0C1909147E0094B5CD /* goal.png in Resources */,
+				E1611D1A1909C5690094B5CD /* launch_icon.png in Resources */,
+				E1611D0A190912220094B5CD /* start.png in Resources */,
+				E1611D181909C49E0094B5CD /* icon.png in Resources */,
+				E1611CB31907B3F70094B5CD /* Main.storyboard in Resources */,
+				E1611D1019098AAC0094B5CD /* frisbee_arrow.png in Resources */,
+				E1611CF51907D84C0094B5CD /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1611CBF1907B3F70094B5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1611CCD1907B3F70094B5CD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1611C941907B3F70094B5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1611CAC1907B3F70094B5CD /* main.m in Sources */,
+				E1611CDA1907B4350094B5CD /* JRLViewController.m in Sources */,
+				E1611CB01907B3F70094B5CD /* JRLAppDelegate.m in Sources */,
+				E1611D071909070C0094B5CD /* JRLCLLocationController.m in Sources */,
+				E1611CFB19083F4E0094B5CD /* JRLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1611CBD1907B3F70094B5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1611CCF1907B3F70094B5CD /* iFrisbeeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1611CC71907B3F70094B5CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1611C971907B3F70094B5CD /* iFrisbee */;
+			targetProxy = E1611CC61907B3F70094B5CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1611CA81907B3F70094B5CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1611CA91907B3F70094B5CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1611CB11907B3F70094B5CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1611CB21907B3F70094B5CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1611CCB1907B3F70094B5CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1611CCC1907B3F70094B5CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1611CD01907B3F70094B5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1611CD11907B3F70094B5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1611CD31907B3F70094B5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFrisbee/iFrisbee-Prefix.pch";
+				INFOPLIST_FILE = "iFrisbee/iFrisbee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1611CD41907B3F70094B5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFrisbee/iFrisbee-Prefix.pch";
+				INFOPLIST_FILE = "iFrisbee/iFrisbee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E1611CD61907B3F70094B5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iFrisbee.app/iFrisbee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFrisbee/iFrisbee-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iFrisbeeTests/iFrisbeeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E1611CD71907B3F70094B5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iFrisbee.app/iFrisbee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFrisbee/iFrisbee-Prefix.pch";
+				INFOPLIST_FILE = "iFrisbeeTests/iFrisbeeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1611C931907B3F70094B5CD /* Build configuration list for PBXProject "iFrisbee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1611CD01907B3F70094B5CD /* Debug */,
+				E1611CD11907B3F70094B5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1611CD21907B3F70094B5CD /* Build configuration list for PBXNativeTarget "iFrisbee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1611CD31907B3F70094B5CD /* Debug */,
+				E1611CD41907B3F70094B5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1611CD51907B3F70094B5CD /* Build configuration list for PBXNativeTarget "iFrisbeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1611CD61907B3F70094B5CD /* Debug */,
+				E1611CD71907B3F70094B5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1611C901907B3F70094B5CD /* Project object */;
+}
